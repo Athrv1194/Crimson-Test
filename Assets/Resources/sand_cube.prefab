@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8434411711119345590}
   - component: {fileID: 3355828357679825127}
   - component: {fileID: 2289569577234259807}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: sand1_block_3_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,9 +96,9 @@ GameObject:
   - component: {fileID: 602830653447929709}
   - component: {fileID: 3031968401904043174}
   - component: {fileID: 7526031467305619018}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: sand_cube
-  m_TagString: Untagged
+  m_TagString: Tiles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -201,7 +201,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 653390f8e5301a2438ab22db0fea6547, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 5331390514849494314}
   - component: {fileID: 563758483605777992}
   - component: {fileID: 3784771805212512952}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: sand1_block_3_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +317,7 @@ GameObject:
   - component: {fileID: 644632593552764057}
   - component: {fileID: 5788325804229412452}
   - component: {fileID: 3798354703061444689}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: sand1_block_3_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

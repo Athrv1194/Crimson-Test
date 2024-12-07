@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Tile
+  - Tiles
+  - Unit
   layers:
   - Default
   - TransparentFX
@@ -12,7 +14,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Tiles
   - 
   - 
   - 

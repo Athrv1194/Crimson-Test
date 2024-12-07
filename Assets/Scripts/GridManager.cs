@@ -9,8 +9,8 @@ using UnityEngine.UI;
 public class GridManager : MonoBehaviour
 {
     [SerializeField] private GameObject gridTilePrefab;
-    [SerializeField] private int gridWidth = 10; // Grid width
-    [SerializeField] private int gridHeight = 10; // Grid height
+     public int gridWidth = 10; // Grid width
+     public int gridHeight = 10; // Grid height
     [SerializeField] private float tileSpacing = 1.0f; // tilespacing
     [SerializeField] private Text tileInfoNum; // tile positioning UI Text
     [SerializeField] private Camera mainCamera;
@@ -51,7 +51,7 @@ public class GridManager : MonoBehaviour
     //Detecting which tile hovered
     private void DetectHoveredTile()
     {
-        if (mainCamera == null) return;
+        if (mainCamera== null) return;
 
         // Perform a raycast from the mouse position
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
@@ -71,4 +71,5 @@ public class GridManager : MonoBehaviour
             tileInfoNum.text = "";
         }
     }
+    
 }
